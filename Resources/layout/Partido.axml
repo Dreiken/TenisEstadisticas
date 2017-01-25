@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/gridLayout1"
+    p1:columnCount="2"
+    p1:rowCount="2">
+    <TextView
+        p1:text="Jugador 1"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/Jugador1Nombre"
+        p1:layout_marginLeft="45.0dp"
+        p1:layout_marginTop="15.0dp"
+        p1:textAllCaps="true"
+        p1:textSize="25dp"
+        p1:maxLength="9" />
+    <TextView
+        p1:text="Jugador 2"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/Jugador2Nombre"
+        p1:layout_gravity="right"
+        p1:layout_marginRight="45.0dp"
+        p1:layout_marginTop="15.0dp"
+        p1:textAllCaps="true"
+        p1:textSize="25dp"
+        p1:maxLength="9" />
+    <TextView
+        p1:text="Games"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/GamesText1"
+        p1:layout_gravity="left"
+        p1:layout_marginLeft="50dp"
+        p1:layout_marginTop="15.0dp" />
+    <TextView
+        p1:text="Games"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/GamesText2"
+        p1:layout_gravity="right"
+        p1:layout_marginRight="50dp"
+        p1:layout_marginTop="15.0dp" />
+    <TextView
+        p1:text="0"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/CantidadGames1"
+        p1:layout_marginLeft="50.0dp" />
+    <TextView
+        p1:text="0"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/CantidadGames2"
+        p1:layout_gravity="right"
+        p1:layout_marginRight="50dp" />
+    <TextView
+        p1:text="Sets"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/SetsText1"
+        p1:layout_marginLeft="50.0dp"
+        p1:layout_marginTop="5.0dp" />
+    <TextView
+        p1:text="Sets"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/SetsText2"
+        p1:layout_marginTop="5.0dp"
+        p1:layout_marginRight="50dp"
+        p1:layout_gravity="right" />
+    <TextView
+        p1:text="0"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/CantidadSets1"
+        p1:layout_marginLeft="50dp" />
+    <TextView
+        p1:text="0"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/CantidadSets2"
+        p1:layout_marginRight="50dp"
+        p1:layout_gravity="right" />
+    <TextView
+        p1:text="Score"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/ScoreText1"
+        p1:layout_marginLeft="50dp" />
+    <TextView
+        p1:text="Score"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/ScoreText2"
+        p1:layout_marginRight="50dp"
+        p1:layout_gravity="right" />
+    <TextView
+        p1:text="0"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/CantidadScore1"
+        p1:layout_marginLeft="50dp" />
+    <TextView
+        p1:text="0"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/CantidadScore2"
+        p1:layout_marginRight="50dp"
+        p1:layout_gravity="right" />
+    <Button
+        p1:text="PUNTO"
+        p1:id="@+id/PuntoButton1"
+        p1:layout_marginLeft="60dp"
+        p1:layout_marginTop="20dp" />
+    <Button
+        p1:text="PUNTO"
+        p1:id="@+id/PuntoButton2"
+        p1:layout_marginTop="20dp"
+        p1:layout_marginRight="60dp"
+        p1:layout_gravity="right" />
+    <Button
+        p1:text="OUT 1RO"
+        p1:id="@+id/PrimerSaqueButton1"
+        p1:layout_marginLeft="60dp" />
+    <Button
+        p1:text="OUT 1RO"
+        p1:id="@+id/PrimerSaqueButton2"
+        p1:layout_marginRight="60dp"
+        p1:layout_gravity="right" />
+    <Button
+        p1:text="OUT 2DO"
+        p1:id="@+id/SegundoSaqueButton1"
+        p1:layout_marginLeft="60dp" />
+    <Button
+        p1:text="OUT 2DO"
+        p1:id="@+id/SegundoSaqueButton2"
+        p1:layout_marginRight="60dp"
+        p1:layout_gravity="right" />
+    <Button
+        p1:text="ACE"
+        p1:id="@+id/AceButton1"
+        p1:layout_marginLeft="60dp" />
+    <Button
+        p1:text="Ace"
+        p1:id="@+id/AceButton2"
+        p1:layout_marginRight="60dp"
+        p1:layout_gravity="right" />
+    <Button
+        p1:text="WINNER"
+        p1:id="@+id/WinnerButton1"
+        p1:layout_marginLeft="60dp" />
+    <Button
+        p1:text="WINNER"
+        p1:id="@+id/WinnerButton2"
+        p1:layout_marginRight="60dp"
+        p1:layout_gravity="right" />
+    <Button
+        p1:text="NO FORZADO"
+        p1:id="@+id/NoForzadoButton1"
+        p1:layout_marginLeft="60dp" />
+    <Button
+        p1:text="NO FORZADO"
+        p1:id="@+id/NoForzadoButton2"
+        p1:layout_marginRight="60dp"
+        p1:layout_gravity="right" />
+</GridLayout>

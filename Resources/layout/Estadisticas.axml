@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/gridLayout1"
+    p1:columnCount="3">
+    <TextView xmlns:p2="http://schemas.android.com/tools"
+        p1:text="Large Text"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/invisible2"
+        p1:visibility="invisible"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginTop="15dp"
+        p1:layout_marginLeft="10dp"
+        p1:layout_marginBottom="5dp"
+        p1:gravity="center"
+        p1:textSize="25dp" />
+    <TextView
+        p1:text="PARTIDO"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/EstadisticasHeaderText"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginTop="15dp"
+        p1:textSize="25dp"
+        p1:layout_marginBottom="5dp" />
+    <TextView xmlns:tools="http://schemas.android.com/tools"
+        p1:text="Large Text"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/invisible2"
+        p1:visibility="invisible"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginRight="10dp"
+        p1:layout_marginTop="15dp"
+        p1:layout_marginBottom="5dp"
+        p1:gravity="center"
+        p1:textSize="25dp" />
+    <TextView
+        p1:text="JUGADOR 1"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/Jugador1NombreStats"
+        p1:layout_marginTop="5dp"
+        p1:layout_marginLeft="10dp"
+        p1:gravity="center_horizontal" />
+    <TextView xmlns:tools="http://schemas.android.com/tools"
+        p1:text="7/6 3/6 6/2"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/GamesStatsText"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginTop="5dp"
+        p1:gravity="center_horizontal" />
+    <TextView
+        p1:text="JUGADOR 2"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/Jugador2NombreStats"
+        p1:layout_marginTop="5dp"
+        p1:layout_marginRight="10dp"
+        p1:gravity="center_horizontal" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/NoForzados1Text"
+        p1:layout_marginTop="10dp"
+        p1:text="30"
+        p1:gravity="center"
+        p1:layout_gravity="center_horizontal" />
+    <TextView
+        p1:text="No Forzados"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/NoForzadosText"
+        p1:layout_marginTop="10dp"
+        p1:layout_gravity="center_horizontal" />
+    <TextView
+        p1:text="30"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/NoForzados2Text"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginTop="10dp" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/Winners1Text"
+        p1:layout_marginTop="5dp"
+        p1:text="30"
+        p1:gravity="center"
+        p1:layout_gravity="center_horizontal" />
+    <TextView
+        p1:text="Winners"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/WinnersText"
+        p1:layout_marginTop="5dp"
+        p1:layout_gravity="center_horizontal" />
+    <TextView
+        p1:text="30"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/Winners2Text"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginTop="5dp" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/Aces1Text"
+        p1:layout_marginTop="5dp"
+        p1:text="30"
+        p1:gravity="center"
+        p1:layout_gravity="center_horizontal" />
+    <TextView
+        p1:text="Aces"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/AcesText"
+        p1:layout_marginTop="5dp"
+        p1:layout_gravity="center_horizontal" />
+    <TextView
+        p1:text="30"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/Aces2Text"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginTop="5dp" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/DobleFaltas1Text"
+        p1:layout_marginTop="5dp"
+        p1:text="30"
+        p1:gravity="center"
+        p1:layout_gravity="center_horizontal" />
+    <TextView
+        p1:text="Doble Faltas"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/DobleFaltasText"
+        p1:layout_marginTop="5dp"
+        p1:layout_gravity="center_horizontal" />
+    <TextView
+        p1:text="30"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/DobleFaltas2Text"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginTop="5dp" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/PorcentajePrimeros1Text"
+        p1:layout_marginTop="5dp"
+        p1:text="99%"
+        p1:gravity="center"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginLeft="5dp" />
+    <TextView
+        p1:text="1erSaque Win%"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/PorcentajePrimerosText"
+        p1:layout_marginTop="5dp"
+        p1:layout_gravity="center_horizontal" />
+    <TextView
+        p1:text="99%"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/PorcentajePrimeros2Text"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginTop="5dp"
+        p1:layout_marginRight="5dp" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/PorcentajeSegundos1Text"
+        p1:layout_marginTop="5dp"
+        p1:layout_marginLeft="5dp"
+        p1:text="60%"
+        p1:gravity="center"
+        p1:layout_gravity="center_horizontal" />
+    <TextView
+        p1:text="2doSaque Win%"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/PorcentajeSegundosText"
+        p1:layout_marginTop="5dp"
+        p1:layout_gravity="center_horizontal" />
+    <TextView
+        p1:text="60%"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:id="@+id/PorcentajeSegundos2Text"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginTop="5dp"
+        p1:layout_marginRight="5dp" />
+    <Button
+        p1:text="1er Set"
+        p1:id="@+id/PrimerSetButton"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginTop="50dp"
+        p1:layout_marginLeft="15dp" />
+    <Button
+        p1:text="2do Set"
+        p1:id="@+id/SegundoSetButton"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginTop="50dp" />
+    <Button
+        p1:text="3er Set"
+        p1:id="@+id/TercerSetButton"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_marginRight="15dp"
+        p1:layout_marginTop="50dp" />
+    <TextView xmlns:tools="http://schemas.android.com/tools"
+        p1:text="Large Text"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:id="@+id/invisible4"
+        p1:visibility="invisible" />
+    <Button
+        p1:text="Partido"
+        p1:id="@+id/PartidoCompletoButton"
+        p1:layout_marginTop="15dp"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_width="100dp"
+        p1:layout_height="60dp" />
+</GridLayout>

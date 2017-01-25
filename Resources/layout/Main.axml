@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Jugador1Text"
+        p1:layout_marginBottom="15.0dp"
+        p1:layout_marginTop="15.0dp"
+        p1:hint="Jugador 1"
+        p1:gravity="center"
+        p1:maxLength="9" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:id="@+id/Jugador2Text"
+        p1:layout_height="wrap_content"
+        p1:hint="Jugador 2"
+        p1:gravity="center"
+        p1:maxLength="9" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/SacadorText"
+        p1:layout_marginTop="30dp"
+        p1:hint="Jugador que empieza Sacando"
+        p1:gravity="center"
+        p1:maxLength="9" />
+    <Button
+        p1:text="Empezar"
+        p1:layout_width="match_parent"
+        p1:layout_height="71.5dp"
+        p1:id="@+id/EmpezarButton"
+        p1:layout_marginLeft="50.0dp"
+        p1:layout_marginRight="50.0dp"
+        p1:layout_marginTop="30dp" />
+</LinearLayout>
